@@ -21,9 +21,11 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             buildConfigField("String", "BASEURL", "\"https://www.googleapis.com/\"")
+            buildConfigField("String", "YOUTUBE_KEY", "\"AIzaSyCG5Lb6p0Bviv91eA2-ku-t5bfpBU9gu8s\"")
         }
         debug {
             buildConfigField("String", "BASEURL", "\"https://www.googleapis.com/\"")
+            buildConfigField("String", "YOUTUBE_KEY", "\"AIzaSyCG5Lb6p0Bviv91eA2-ku-t5bfpBU9gu8s\"")
         }
     }
 
